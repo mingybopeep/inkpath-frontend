@@ -1,0 +1,31 @@
+.FetchButton{
+    padding: 20px; 
+    background: whitesmoke;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    button{
+        display: block;
+        margin: auto;
+        padding: 10px 20px; 
+        background: rgb(74, 74, 219);
+        color: white;
+        border-radius: 25px;
+        border: none; 
+        font-weight: bold;
+        &:disabled{
+            filter: grayscale(0.5);
+        }
+    }
+
+    p{
+        padding: 20px; 
+        border: 2px solid red; 
+        color: red;
+        text-align: center;
+        background-color: pink;
+        border-radius: 5px;
+    }
+}

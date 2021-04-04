@@ -1,0 +1,44 @@
+.Home {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    * {
+        text-transform: uppercase;
+    }
+    h1 {
+        padding: 20px;
+    }
+    h4 {
+        padding: 10px;
+    }
+    input {
+        padding: 5px;
+        margin: 10px;
+    }
+
+    section {
+        padding: 20px;
+        background: whitesmoke;
+        margin: 10px auto;
+        input,
+        select {
+            margin: 10px auto;
+            padding: 10px;
+        }
+        .flex {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    .bubble {
+        padding: 20px;
+        background: rgb(3, 112, 255);
+        border-radius: 50px;
+        color: white;
+        * {
+            display: inline-block;
+            margin: 10px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.Table {
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left;
+    position: relative;
+    background-color: whitesmoke;
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        h4 {
+            width: calc(100% /3);
+            display: inline-block;
+            padding: 20px;
+        }
+    }
+
+    .container {
+        margin-top: 50px;
+        width: 100%;
+        overflow-y: scroll;
+        height: 300px;
+
+        div {
+            width: 100%;
+            padding: 5px;
+            p {
+                width: calc(100% /3);
+                display: inline-block;
+            }
+        }
+    }
+}
